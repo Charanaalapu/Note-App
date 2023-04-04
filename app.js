@@ -1,7 +1,8 @@
-var x = localStorage.length;
-if(x===0){
-    localStorage.setItem('Notes','')
-}
+if('Notes' in localStorage){
+    // console.log("Key :'Notes' is Present")
+ }else{
+     localStorage.setItem('Notes','')
+ }
 const title=document.querySelector('.title')
 const desc=document.querySelector('.user-note')
 const addNoteButton=document.querySelector('#creatnote')
