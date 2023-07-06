@@ -22,7 +22,6 @@ hr{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    /* align-items:center; */
     gap: 10px;
     border: 2px solid black;
     width: 80%;
@@ -43,7 +42,7 @@ textarea{
 }
 #creatnote{
     height: 25px;
-    width: 100%;
+    width: 80px;
     color: white;
     background-color: #007BFF;
     border: none;
@@ -57,6 +56,7 @@ textarea{
     width: 100%;
     flex-wrap: wrap;
     margin-left: 70px;
+    
 }
 .box{
     box-sizing: border-box;
@@ -65,10 +65,8 @@ textarea{
     height: 200px;
     width: 15%;
     padding: 10px;
-    /* border: 2px solid black; */
     border-radius: 3px;
     box-shadow:  #a5a6a7 2px 2px 10px 5px;
-    /* justify-content: space-around; */
     background-color: #3f4041;
     color: white;
 }
@@ -78,26 +76,27 @@ textarea{
     box-sizing: border-box;
     display:flex;
     flex-direction: column;
-    /* gap: 2px; */
     padding: 5px;
     margin-bottom: 3px;
 }
 .buttons{
     box-sizing: border-box;
     display: flex;
-    justify-content: space-evenly;   
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    /* gap: 5px;  */
 }
 .Delete-btn{
-    height: 30px;
-    width: 90px;
+    height: 40px;
+    width: 85px;
     border: none;
     color: white;
     background-color: red;
     border-radius: 3px;
 }
 .Edit-btn{
-    height: 30px;
-    width: 90px;
+    height: 40px;
+    width: 85px;
     border: none;
     color: white;
     background-color:rgb(70, 205, 70);
@@ -112,7 +111,7 @@ textarea{
 }
 
 @media screen and (max-width:740px){
-    .container,.notes,.title,.user-note{
+    .container{
         display: flex;
         width: 70%;
     }
