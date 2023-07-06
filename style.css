@@ -43,7 +43,7 @@ textarea{
 }
 #creatnote{
     height: 25px;
-    width: 80px;
+    width: 100%;
     color: white;
     background-color: #007BFF;
     border: none;
